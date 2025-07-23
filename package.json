@@ -2,11 +2,15 @@
   "name": "client-management-app",
   "version": "1.0.0",
   "private": true,
-  "homepage": "https://github.com/khalil98dev/ClientApp",
+  "homepage": "https://khalil98dev.github.io/ClientApp",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:khalil98dev/ClientApp.git"
+  },
   "dependencies": {
+    "lucide-react": "^0.263.1",
     "react": "^18.2.0",
-    "react-dom": "^18.2.0",
-    "lucide-react": "^0.263.1"
+    "react-dom": "^18.2.0"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -14,11 +18,14 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "deploy": "gh-pages -d build -u \"khalil bachir <khalil98dev@gmail.com>\""
   },
   "devDependencies": {
+    "autoprefixer": "^10.4.21",
+    "gh-pages": "^4.0.0",
+    "postcss": "^8.5.6",
     "react-scripts": "5.0.1",
-    "gh-pages": "^4.0.0"
+    "tailwindcss": "^4.1.11"
   },
   "browserslist": {
     "production": [
